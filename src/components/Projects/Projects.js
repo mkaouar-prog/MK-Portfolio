@@ -14,6 +14,7 @@ import luxi from "../../Assets/Projects/luxi.png";
 import esps from "../../Assets/Projects/esps.png";
 import book from "../../Assets/Projects/book.png";
 import app from "../../Assets/Projects/a.jpg";
+import appt from "../../Assets/Projects/unnamed.webp";
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -62,7 +63,7 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={app}
+              imgPath={appt}
               isBlog={false}
               title="Dalilaltelmidh App"
               description="I developed an Android app using Flutter, focused on providing educational content and interactive learning experiences. The app features user-friendly navigation, multimedia resources . Additionally, I integrated AdMob ads to generate revenue while maintaining a seamless user experience. I also deployed the app on the Google Play Store, making it accessible to a broader audience."
